@@ -1,0 +1,166 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ */
+
+ @font-face {
+    font-family: Mont;
+    src: url('../Fonts/Mont-HeavyDEMO.woff2') format('woff2');
+ }
+
+ .mont {
+    font-family: Mont !important;
+ }
+
+
+ video {
+    width: 100%;
+    margin: auto !important;
+    border: #6A1997 3px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ /* main colors */
+
+.main-colors {
+    color:
+#6A1997
+#933AB2;
+}
+
+.red {
+    color: #6A1997;
+}
+
+.active {
+    color: rgb(255, 183, 1) !important;
+}
+
+
+
+ header {
+    background: #6C78AF;
+    color: #fff;
+ }
+
+ header h1 {
+    font-size: 20px;
+ }
+
+/* menus */
+
+.menus ul {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.menus ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menus ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menus ul a:hover {
+    text-transform: none;
+    color: rgb(255, 183, 1);
+}
+
+/* hero */
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to top, #6C78AF , #ffffff);
+}
+
+/* .hero .txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+} */
+
+.hero .txt h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #212529;
+}
+
+/* forms */
+
+.forms {
+    padding: 100px 0 100px 0;
+    background: #6C78AF;
+}
+
+.forms .welcome {
+    padding-bottom: 30px;
+}
+
+.formcontainer{
+
+    background: none;
+    border: #6A1997 3px solid;
+    border-radius: 20px;
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.formcontainer form input {
+    border: none;
+    border-bottom: #212529 1px solid;
+    background: none;
+    color: #6A1997;
+}
+
+.form-group{
+    margin-bottom:30px;
+}
+
+.formbtn {
+    background: #6A1997 !important;
+    width: 100%;
+}
+
+/* loading */
+
+.user {
+    margin: auto;
+}
+
+.loading {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.reveal {
+    text-align: center;
+    display: none;
+}
+
+.reveal img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* foter */
+
+footer {
+    padding: 40px 0 40px 0;
+    background: #212529;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../Libraries/Bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../Libraries/Bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../Libraries/Bootstrap/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/all.min.css">
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/brands.min.css">
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/regular.min.css">
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/solid.min.css">
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="../Libraries/Font_Awesome/css/v4-shims.min.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+    <link rel="stylesheet" href="../Libraries/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <?php
+    
+    ?>
+</body>
+</html>

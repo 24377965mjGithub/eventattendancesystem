@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../Fonts/Mont-HeavyDEMO.woff2') format('woff2');
+}
+
+.mont {
+    font-family: Mont !important;
+ }
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.green {
+    color: rgb(62, 255, 62);
+}
+
+.red {
+    color: rgb(255, 130, 62);
+}
+
+.yellow {
+    color: rgb(206, 255, 81);
+}
+
+body {
+    height: 150vh;
+    background-image: linear-gradient(to top, #6C78AF , #ffffff);
+}
+
+/* ifno */
+
+.info {
+    padding: 30px 0 30px 0;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.info .currenttoday {
+    margin-top: 40px;
+}
+
+/* event list */
+
+.eventlist {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.eventlist .event {
+    padding: 20px;
+    background: #6A1997;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.eventlist .event p {
+    font-size: 12px;
+}
+
+/* staffs */
+
+.staffs {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.staffs .staff,
+.staffs .student {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.staffs .staff .icons,
+.staffs .student .icons {
+    text-align: right;
+}
+
+.staffs .staff img,
+.staffs .student img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
